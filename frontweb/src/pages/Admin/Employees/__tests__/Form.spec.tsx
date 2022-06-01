@@ -62,6 +62,7 @@ describe('Employee form create tests', () => {
 
         render(
             <Router history={history}>
+                <ToastContainer />
                 <Form />
             </Router>
         );
